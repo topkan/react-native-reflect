@@ -31,7 +31,7 @@
   "scripts": {
     "build:clean": "rm -rf lib",
     "build:rollup": "rollup -c && rollup -c --environment TARGET:react-native",
-    "build:types": "cp ./src/{index,styled,theme,types,useStyled,utils}.d.ts ./lib/",
+    "build:types": "cp ./src/{index,styled,theme,types,useStyled,useTheme,utils}.d.ts ./lib/",
     "build": "run-p build:rollup build:types",
     "test": "node_modules/.bin/jest",
     "test:debug": "node --inspect-brk node_modules/jest/bin/jest.js --runInBand",

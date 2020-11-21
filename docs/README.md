@@ -552,6 +552,33 @@ const App = () => (
 );
 ```
 
+## ThemeConsumer
+
+To get the global theme from components, use theme context consumer.
+
+```javascript
+import { ThemeConsumer } from "react-native-reflect";
+
+const Component = () => (
+  <ThemeConsumer>
+    {theme => <SubComponent color={theme.colors.red} />}
+  </ThemeConsumer>
+);
+```
+
+ALternatively, access the theme using `useTheme` hook from functional component:
+
+```javascript
+import { useTheme } from "react-native-reflect";
+
+const Component = () => {
+  const { colors } = useTheme();
+  return (
+    <SubComponent color={colors.red} />
+  );
+);
+```
+
 # API / TypeScript
 
 Reflect provides types for it's own methods, components and objects, along with other types which can be useful when working with React Native and Reflect.

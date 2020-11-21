@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 export const defaultTheme = {
   colors: {
     primary: "#007BFF",
@@ -32,3 +32,4 @@ export const defaultTheme = {
 };
 export const ThemeContext = React.createContext(defaultTheme);
 export const ThemeProvider = ThemeContext.Provider;
+export const ThemeConsumer = ThemeContext.Consumer;
