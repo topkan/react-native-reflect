@@ -525,7 +525,7 @@ The following is a list of theme keys and their corresponding style properties.
 | color        | color, backgroundColor, borderColor                                                                                     |
 | borderWidths | borderWidth                                                                                                             |
 | fontSizes    | fontSize                                                                                                                |
-| space        | margin, marginTop, marginRight, marginBottom, marginLeft, padding, paddingRight, paddingLeft, paddingTop, paddingBottom |
+| space        | margin, marginTop, marginRight, marginBottom, marginLeft, marginHorizontal, marginVertical, padding, paddingRight, paddingLeft, paddingTop, paddingBottom, paddingHorizontal, paddingVertical |
 | sizes        | width, height, minWidth, maxWidth, minHeight, maxHeight                                                                 |
 | fonts        | fontFamily                                                                                                              |
 | fontWeights  | fontWeight                                                                                                              |

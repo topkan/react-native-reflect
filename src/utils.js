@@ -18,11 +18,15 @@ export const THEME_KEYS_BY_PROPS = {
   marginRight: "space",
   marginBottom: "space",
   marginLeft: "space",
+  marginVertical: "space",
+  marginHorizontal: "space",
   padding: "space",
   paddingRight: "space",
   paddingLeft: "space",
   paddingTop: "space",
   paddingBottom: "space",
+  paddingVertical: "space",
+  paddingHorizontal: "space",
   // fontSizes
   fontSize: "fontSizes",
   // colors

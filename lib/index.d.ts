@@ -1,7 +1,7 @@
 import { os, useWindowDimensions } from "./utils";
 import useStyled from "./useStyled";
 import styled from "./styled";
-import { ThemeProvider, Theme } from "./theme";
+import { ThemeProvider, ThemeConsumer, Theme } from "./theme";
 import useTheme from "./useTheme";
 import {
   ReactNativeStyle,
@@ -18,6 +18,7 @@ export {
   useTheme,
   Theme,
   ThemeProvider,
+  ThemeConsumer,
   defaultTheme,
   ReactNativeStyle,
   ReactNativeStyles,
